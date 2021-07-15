@@ -17,9 +17,12 @@ const user = {
 
 
 const autoReplacement = (object) => {
+  console.info('оригінальний: \n', object)
 
-    object.mood = 'happy'
-    return console.info(object)
+  object.mood = 'happy'
+  object.hobby = 'skydiving'
+  object.premium = false
+    return console.info('модифікований: \n', object)
 }
 
 
